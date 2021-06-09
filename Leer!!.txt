@@ -1,0 +1,3 @@
+Ejercicios de Arrays son del repositorio del profe:
+
+https://github.com/adrianmdp/ada8-frontend/tree/main/ejercicios/arrays

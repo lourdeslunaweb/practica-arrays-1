@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Crear un programa que muestre:
+
+    un input de números
+    un botón que diga Agregar gasto/ganancia
+    una lista ul
+    un elemento p
+    Cuando se hace click en el botón, se debe agregar el valor del input a un array y actualizar la lista y el elemento p.
+    
+    Para actualizar la lista se debe:
+    
+    borrar todo lo que contenga
+    recorrer el array y por cada ítem
+    insertar un ítem de lista li con el valor del ítem del array
+    El elemento p se actualiza con el total de la suma de los valores del array. -->
+
+    <div class="container">
+        <h2 class="mxy">Ingresá un gasto (-) o una ganancia (+) en números:</h2>
+        <div class="flex">
+            <label>$</label>
+            <input class="mxy"></input>
+        </div>
+        <button class="mxy">Agregar gasto/ ganancia</button>
+    </div>
+    <div class="listaTareas mxy">
+        <h2 class="mxy">Lista de gastos/ ganancias:</h2>
+        <ul class="mxy">
+            <li>
+                <p>0</p>
+            </li>
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
