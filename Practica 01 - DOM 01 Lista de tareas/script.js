@@ -10,3 +10,27 @@
 // borrar todo lo que contenga
 // recorrer el array y por cada ítem
 // insertar un ítem de lista li con el valor del ítem del array
+
+
+const input = document.getElementById("input");
+const btn = document.getElementById("btn");
+const ul = document.getElementById("ul");
+let arrayTareas = []
+
+const agregarTarea = () => {
+    const text = input.value
+    const li = document.createElement("li");
+    const p = document.createElement("p");
+    p.textContent = text;
+
+    
+    arrayTareas.push(text)
+    console.log(arrayTareas)
+
+    li.appendChild(p);
+    ul.appendChild(li)
+
+    input.value = ""
+}
+
+btn.addEventListener("click", agregarTarea)
